@@ -1,9 +1,8 @@
 package org.example;
 
 import javax.swing.*;
-import java.awt.*;
 
-public class Calculo {
+public class Complexo {
     public static String botaoSoma(JTextField TF_11, JTextField TF_21, JTextField TF_12, JTextField TF_22) {
         String res = "";
         try {

@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import static org.example.Calculo.*;
+import static org.example.Complexo.*;
 
 public class Main {
     public static void main(String[] args) {
