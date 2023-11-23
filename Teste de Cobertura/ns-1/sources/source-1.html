@@ -1,0 +1,143 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Complexo</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.example</a>
+</div>
+
+<h1>Coverage Summary for Class: Complexo (org.example)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Complexo</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    76%
+  </span>
+  <span class="absValue">
+    (19/25)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package org.example;
+&nbsp;
+&nbsp;import javax.swing.*;
+&nbsp;
+<b class="fc">&nbsp;public class Complexo {</b>
+&nbsp;    public static String botaoSoma(JTextField TF_11, JTextField TF_21, JTextField TF_12, JTextField TF_22) {
+<b class="fc">&nbsp;        String res = &quot;&quot;;</b>
+&nbsp;        try {
+<b class="fc">&nbsp;            if (TF_11.getText().isEmpty() || TF_21.getText().isEmpty() || TF_12.getText().isEmpty() || TF_22.getText().isEmpty()) {</b>
+<b class="nc">&nbsp;                JOptionPane.showMessageDialog(null, &quot;ERRO: Um ou mais campos são inválidos&quot;);</b>
+&nbsp;            } else {
+<b class="fc">&nbsp;                int n1_1 = Integer.parseInt(TF_11.getText());</b>
+<b class="fc">&nbsp;                int n2_1 = Integer.parseInt(TF_21.getText());</b>
+<b class="fc">&nbsp;                int n1_2 = Integer.parseInt(TF_12.getText());</b>
+<b class="fc">&nbsp;                int n2_2 = Integer.parseInt(TF_22.getText());</b>
+<b class="fc">&nbsp;                res = &quot;Resultado = &quot; + Integer.toString(n1_1 + n1_2) + &quot; + &quot; + Integer.toString(n2_1 + n2_2) + &quot;i&quot;;</b>
+&nbsp;            }
+<b class="nc">&nbsp;        } catch (NumberFormatException nfe) {</b>
+<b class="nc">&nbsp;            JOptionPane.showMessageDialog(null, &quot;ERRO: Um ou mais campos são inválidos&quot;);</b>
+<b class="fc">&nbsp;        }</b>
+<b class="fc">&nbsp;        return res;</b>
+&nbsp;    }
+&nbsp;    public static String botaoSub(JTextField TF_11, JTextField TF_21, JTextField TF_12, JTextField TF_22) {
+<b class="fc">&nbsp;        String res = &quot;&quot;;</b>
+&nbsp;        try {
+<b class="fc">&nbsp;            if (TF_11.getText().isEmpty() || TF_21.getText().isEmpty() || TF_12.getText().isEmpty() || TF_22.getText().isEmpty()) {</b>
+<b class="nc">&nbsp;                JOptionPane.showMessageDialog(null, &quot;ERRO: Um ou mais campos são inválidos&quot;);</b>
+&nbsp;            } else {
+<b class="fc">&nbsp;                int n1_1 = Integer.parseInt(TF_11.getText());</b>
+<b class="fc">&nbsp;                int n2_1 = Integer.parseInt(TF_21.getText());</b>
+<b class="fc">&nbsp;                int n1_2 = Integer.parseInt(TF_12.getText());</b>
+<b class="fc">&nbsp;                int n2_2 = Integer.parseInt(TF_22.getText());</b>
+<b class="fc">&nbsp;                res = &quot;Resultado = &quot; + Integer.toString(n1_1 - n1_2) + &quot; - &quot; + Integer.toString(n2_1 - n2_2) + &quot;i&quot;;</b>
+&nbsp;            }
+<b class="nc">&nbsp;        } catch (NumberFormatException nfe) {</b>
+<b class="nc">&nbsp;            JOptionPane.showMessageDialog(null, &quot;ERRO: Um ou mais campos são inválidos&quot;);</b>
+<b class="fc">&nbsp;        }</b>
+<b class="fc">&nbsp;        return res;</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-11-23 12:35</div>
+</div>
+</body>
+</html>
