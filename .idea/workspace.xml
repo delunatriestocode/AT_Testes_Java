@@ -5,50 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e22ccff8-f11e-4383-803c-1e997e469bcb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/css/coverage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/css/idea.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/img/arrowDown.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/img/arrowUp.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/index_SORT_BY_BLOCK.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/index_SORT_BY_CLASS.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/index_SORT_BY_LINE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/index_SORT_BY_METHOD.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/js/highlight.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/js/highlightjs-line-numbers.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/ns-1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/ns-1/index_SORT_BY_BLOCK.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/ns-1/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/ns-1/index_SORT_BY_CLASS.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/ns-1/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/ns-1/index_SORT_BY_LINE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/ns-1/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/ns-1/index_SORT_BY_METHOD.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/ns-1/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/ns-1/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/ns-1/sources/source-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste de Cobertura/ns-1/sources/source-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Complexo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Complexo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/CalculoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AT_Parte2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AT_Parte2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AT_Parte2/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/AT_Parte2/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2YaKEzlcqPMuafg5HOS6xwBXFJE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -74,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/delun/IdeaProjects/AT_Testes_Java/AT_Parte1"
+    "last_opened_file_path": "C:/Users/gabriel.luna/IdeaProjects/AT_Testes_Java/AT_Parte2"
   }
 }]]></component>
   <component name="RunManager">
@@ -109,6 +71,17 @@
       <updated>1700758143811</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AT_Testes_Java$CalculoTest.ic" NAME="CalculoTest Coverage Results" MODIFIED="1700759471475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
