@@ -26,7 +26,7 @@ public class Main {
 
         JLabel codCartaoLabel = new JLabel("Código:");
         codCartaoLabel.setFont(new Font("Arial", Font.PLAIN, 14));
-        JTextField tf_codigo = new JTextField(20);
+        JTextField tf_codigo = new JTextField("12345678", 20);
         JLabel respostaLabel = new JLabel("Resposta:");
         respostaLabel.setFont(new Font("Arial", Font.PLAIN, 14));
         JTextField tf_resposta = new JTextField(20);
@@ -46,11 +46,11 @@ public class Main {
 
             JsonElement jsonElement = JsonParser.parseString(corpoRequisicao);
             JsonObject jsonObject = jsonElement.getAsJsonObject();
-            tf_codigo.setText(jsonObject.get("codigo").getAsString());
+            //tf_codigo.setText(jsonObject.get("codigo").getAsString());
 
             String response = "";
 
-            if (jsonObject.get("codigo").getAsString().equals(codigoCartaoValido)) {
+            if (jsonObject.get("codigo").getAsString().equals(tf_codigo.getText())) {
                 response = "ACK";
             } else {
                 response = "NACK";
