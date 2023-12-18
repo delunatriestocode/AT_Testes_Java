@@ -33,6 +33,7 @@ public class Main {
             @Override
             public void insertUpdate(DocumentEvent e) {
                 verificarValorResposta(tf_codigo, tf_resposta, janelaCliente, painel);
+                System.out.println(tf_codigo.getText().length());
             }
 
             @Override

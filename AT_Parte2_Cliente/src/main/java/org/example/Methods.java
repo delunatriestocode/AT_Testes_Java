@@ -34,7 +34,7 @@ public class Methods {
         System.out.println(content);
 
         //Checar se tem alguma coisa escrita na caixa de texto
-        if (!tfC.getText().isEmpty()) {
+        if (!tfC.getText().isEmpty() && tfC.getText().length() == 10) {
             codigoCartaostr = tfC.getText();
             try {
                 URL url = new URL(path);
@@ -67,22 +67,6 @@ public class Methods {
                 System.out.println(e);
             }
             resposta = tfR.getText();
-//            Timer timer = new Timer(3000, new ActionListener() {
-//                @Override
-//                public void actionPerformed(ActionEvent e) {
-//                    SwingUtilities.invokeLater(new Runnable() {
-//                        @Override
-//                        public void run() {
-//                            tfC.setText("");
-//                            tfR.setText("");
-//                            codigoCartaostr = "";
-//                            resposta = "";
-//                        }
-//                    });
-//                }
-//            });
-//            timer.setRepeats(false); // Executar a ação apenas uma vez
-//            timer.start();
         } else {
             System.out.println("vazia");
         }

@@ -50,7 +50,7 @@ public class Main {
 
             String response = "";
 
-            if (jsonObject.get("codigo").getAsString().equals(tf_codigo.getText())) {
+            if (jsonObject.get("codigo").getAsString().equals(tf_codigo.getText().strip())) {
                 response = "ACK";
             } else {
                 response = "NACK";
